@@ -14,7 +14,7 @@
   "dependencies": {
     "ember-cli-babel": "^7.26.11",
     "ember-cli-htmlbars": "^6.1.0",
-    "ember-uuid": "^1.0.1"
+    "ember-uuid": "^2.1.0"
   },
   "devDependencies": {
     "@csstools/postcss-sass": "^4.0.0",
