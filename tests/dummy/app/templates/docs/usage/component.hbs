@@ -32,7 +32,7 @@
     <p> Model address: {{model.address}}</p>
     <div class="test-place-autocomplete-container" data-google-auto={{googleAuto}}>
       <PlaceAutocompleteField
-        @inputClass= "place-autocomplete--input input-field-example"
+        @inputClass="place-autocomplete--input input-field-example"
         @onBlurCallback={{action "done"}}
         @placeChangedCallback={{action "placeChanged"}}
         @placeholder="Custom placeholder"

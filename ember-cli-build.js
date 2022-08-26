@@ -14,6 +14,7 @@ module.exports = function(defaults) {
     },
     postcssOptions: {
       compile: {
+        map: false,
         extension: 'scss',
         enabled: true,
         parser: require('postcss-scss'),
